@@ -51,7 +51,7 @@ export default function Task({
   );
 }
 
-Task.PropTypes = {
+Task.PropsTypes = {
   task: PropTypes.shape({
     id: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
